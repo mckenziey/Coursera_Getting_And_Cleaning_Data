@@ -87,6 +87,13 @@ I did not include 'meanFreq' variables from the original dataset because the ass
 
 All measures are normalized and bounded within [-1,1].
 
+#Script
+
+Required packages include foreign, xlsx, plyr, and data.table.
+
+Final dataset will produce a textfile with 180 rows with all combinations of activities and subjects. Group 1 refers to the 'Activity' and Group 2 refers to the 'Subject.'
+
+
 #License of Raw Data
 Use of this dataset in publications must be acknowledged by referencing the following publication:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
